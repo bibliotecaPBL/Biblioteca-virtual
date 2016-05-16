@@ -1,0 +1,271 @@
+header{
+    background-color:white;
+    margin-bottom: 10px;
+    height: 110px;
+    /*background: url("../imagem/bg-img-1.jpg")no-repeat 200px -180px;*/
+
+}
+
+div#g{
+    position: absolute;
+    margin-top: -50px;
+}
+div#slide{
+    margin-top:10px;
+    height: 400px;
+
+
+}
+article#princ{
+
+    height: 420px;
+
+
+}
+
+
+aside#lateral{
+    border: 1px solid #83fb75;
+    position: static;
+
+
+}
+
+
+div#f1
+{
+    height: 300px;
+    background-color: #0a2905;
+    margin-top: 50px;
+
+}
+
+div#f2
+{
+    height: 300px;
+    background-color: #0a2905;
+    margin-top: 50px;
+
+}
+
+div#f3
+{
+    height: 300px;
+    background-color: #0a2905;
+    margin-top: 50px;
+}
+h4#x{
+    color: white;
+    text-align: center;
+    font-size: 10pt;
+}
+
+h4#r{
+    color: white;
+}
+p#lado{
+    text-align: justify;
+
+}
+
+
+
+input#username{
+    width: 260px;
+    margin-top: 10px;
+    height: 30px;
+}
+input#password{
+    width: 260px;
+    margin-top: 10px;
+    height: 30px;
+}
+input#pesquiza{
+    width: 260px;
+    margin-top: -80px;
+    height: 30px;
+    margin-left: 850px;
+    position: absolute;
+}
+
+a#user{
+    margin-left: 1210px;
+    margin-top: -37px;
+    position: absolute;
+    color: white;
+}
+
+div#botao{
+    width: 50px;
+    margin-left: 11685px;
+    margin-top: -150px;
+    position: absolute;
+    height: 28px;
+    border-left:1px solid #cecece ;
+}
+h4#ff{
+    color: white;
+    text-align: center;
+    font-size: 10pt;
+}
+
+h4#fff{
+    color: white;
+    text-align: center;
+    font-size: 10pt;
+}
+
+
+/*Menu*/
+#slide {
+    z-index: -1;
+}
+
+nav{
+    background: #085c17;
+    position: relative;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav > ul > li {
+    float: left;
+}
+
+nav  ul  li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 14px 35px;
+    border-right: 1px solid white;
+    font-size: 13px;
+}
+
+nav  ul  li a:hover{
+    background: #087717;
+
+}
+/*PRIORIDADE MENU-DROP-DOW    */
+nav > ul > li:hover div {
+    display: table;
+    z-index: 10;
+}
+
+/*sub-Menu*/
+nav ul li div {
+    width: 1320px;
+    position: absolute;
+    left: 0px;
+    background: rgba(23, 194, 8, 0.4);
+    /* background: #ccc;*/
+    box-sizing: border-box;
+    display: none;
+    transition: 1s;
+}
+
+nav ul li div ul {
+    width: 20%;
+    display: table-cell;
+    border-right: 1px solid rgba(255,255,255,.5);
+    box-sizing: border-box;
+}
+
+nav ul li div ul .titulo{
+    background: #0b0302;
+    color: white;
+}
+
+nav ul li div ul .titulo a{
+    padding: 10px 20px;
+    color: white;
+}
+.titulo.verde { background: #0b0302
+}
+.titulo.laranja { background: #0b0302
+}
+
+.titulo.azul { background: #0b0302
+}
+.titulo.preto { background: #0b0302
+}
+.titulo.amarelo { background: #0b0302
+}
+
+nav ul li div ul li a:hover{
+    color: white;
+
+}
+
+div#bloco{
+    margin-top: 80px;
+    background: #08871c;
+    border-top: solid 2px green;
+
+    position: relative;
+    color: #848484;
+}
+
+
+div#um{
+    
+    text-align: center;
+    border-right: 1px solid #cecece;
+}
+
+div#doix{
+    /*border-left: 1px solid #cecece*/
+     text-align: center;
+}
+
+div#tres{
+    text-align: center;
+   /* border-left: 1px dashed #cecece;
+    border-right: 1px solid #cecece;*/
+}
+
+input#cadastro{
+    width: 185px;
+    height: 25px;
+
+}
+
+input#email{
+    width: 185px;
+    height: 25px;
+}
+
+img#presenca{
+    margin-left: 25px;
+}
+
+
+
+
+
+
+
+h3#tt{
+    margin-top: -75px;
+    margin-left: 100px;
+    color: #087717;
+    font-size: 14pt;
+    text-shadow: 1px 1px 1px #046610;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+
+#liv:hover,
+#liv:focus,
+{
+  color: #555;
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+
+
+
